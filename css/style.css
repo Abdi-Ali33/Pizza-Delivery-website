@@ -7,7 +7,8 @@ html {
   overflow-x: hidden;
 }
 
-.navbar-toggler:active, .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:focus,
 .btn:active,
 .btn:focus {
   box-shadow: none;
@@ -33,42 +34,54 @@ html {
 
 .btn--secondary,
 .btn--primary {
-  background: #EE5A00;
+  background: #ee5a00;
   color: #fff;
 }
 
 .product-qty span {
   font-size: 12px;
-  color: #EE5A00;
+  color: #ee5a00;
 }
 
 /* Hero Section */
 #home {
   position: relative;
   /* Navbar */
-  background: url("../images/bg.png");
+  background: url("../images/pizza17.jpg");
   height: 100%;
   background-position: center center;
   background-size: cover;
 }
 
-#home .cart-tyles, #home nav .cart, #home .shopping-cart .cart, .shopping-cart #home .cart {
+#home .cart-tyles,
+#home nav .cart,
+#home .shopping-cart .cart,
+.shopping-cart #home .cart {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
-#home .cart-tyles span, #home nav .cart span, #home .shopping-cart .cart span, .shopping-cart #home .cart span {
+#home .cart-tyles span,
+#home nav .cart span,
+#home .shopping-cart .cart span,
+.shopping-cart #home .cart span {
   position: relative;
 }
 
-#home .cart-tyles img, #home nav .cart img, #home .shopping-cart .cart img, .shopping-cart #home .cart img {
+#home .cart-tyles img,
+#home nav .cart img,
+#home .shopping-cart .cart img,
+.shopping-cart #home .cart img {
   width: 28px;
   height: 28px;
 }
 
-#home .cart-tyles .cart-counter, #home nav .cart .cart-counter, #home .shopping-cart .cart .cart-counter, .shopping-cart #home .cart .cart-counter {
-  background-color: #EE5A00;
+#home .cart-tyles .cart-counter,
+#home nav .cart .cart-counter,
+#home .shopping-cart .cart .cart-counter,
+.shopping-cart #home .cart .cart-counter {
+  background-color: #ee5a00;
   border-radius: 50%;
   font-size: 11px;
   height: 20px;
@@ -108,7 +121,7 @@ html {
 }
 
 #home nav .navbar-brand {
-  color: #EE5A00;
+  color: #ee5a00;
   font-weight: bold;
 }
 
@@ -122,12 +135,13 @@ html {
   font-size: 1.1rem;
 }
 
-#home nav .nav-link:hover, #home nav .nav-link.active {
-  color: #EE5A00;
+#home nav .nav-link:hover,
+#home nav .nav-link.active {
+  color: #ee5a00;
 }
 
 #home nav .nav-item .btn {
-  background: #EE5A00;
+  background: #ee5a00;
   color: #fff;
 }
 
@@ -172,7 +186,7 @@ html {
 }
 
 #home .banner .order-now button {
-  background-color: #EE5A00;
+  background-color: #ee5a00;
   color: #fff;
   padding: 12px 30px;
   border-radius: 50px 50px 0 50px;
@@ -233,14 +247,16 @@ html {
   transition: all 0.3s ease;
 }
 
-#menu .filter-buttons .filter-button:hover, #menu .filter-buttons .filter-button.active {
-  border: 1px solid #EE5A00;
-  color: #EE5A00;
+#menu .filter-buttons .filter-button:hover,
+#menu .filter-buttons .filter-button.active {
+  border: 1px solid #ee5a00;
+  color: #ee5a00;
 }
 
 #menu .menu .pizza-card {
   background: #fff;
-  box-shadow: 0px 2px 4px rgba(59, 69, 123, 0.2), 0px 4px 8px rgba(243, 218, 218, 0.15);
+  box-shadow: 0px 2px 4px rgba(59, 69, 123, 0.2),
+    0px 4px 8px rgba(243, 218, 218, 0.15);
   border-radius: 10px;
 }
 
@@ -253,7 +269,7 @@ html {
 }
 
 #menu .menu .pizza-card .pizza-details .rating-order .rating .fa-star {
-  color: #EE5A00;
+  color: #ee5a00;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
@@ -275,8 +291,8 @@ html {
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  border: 1px solid #EE5A00;
-  color: #EE5A00;
+  border: 1px solid #ee5a00;
+  color: #ee5a00;
   font-size: 0.7rem;
   display: flex;
   align-items: center;
@@ -288,7 +304,8 @@ html {
 }
 
 #menu .menu .pizza-card .pizza-details .rating-order .order.btn:hover {
-  box-shadow: 0px 2px 4px rgba(59, 69, 123, 0.2), 0px 4px 8px rgba(243, 218, 218, 0.15);
+  box-shadow: 0px 2px 4px rgba(59, 69, 123, 0.2),
+    0px 4px 8px rgba(243, 218, 218, 0.15);
 }
 
 /* Offers Section */
@@ -327,7 +344,7 @@ html {
 }
 
 #offers .offer-div .order-now button {
-  background-color: #EE5A00;
+  background-color: #ee5a00;
   color: #fff;
   padding: 12px 30px;
   border-radius: 50px 50px 0 50px;
@@ -349,13 +366,13 @@ footer .logo img {
 }
 
 footer #subscribe {
-  background-color: #EE5A00;
+  background-color: #ee5a00;
   color: #fafafa;
 }
 
 footer .lower-section {
   color: #666666;
-  background: #F3DADA;
+  background: #f3dada;
   font-size: 14px;
 }
 
@@ -365,16 +382,18 @@ footer .lower-section .socials img {
 }
 
 /* Modals */
-#crust-toppings-modal .toppings input[type="radio"]:checked + .size, #delivery-modal .toppings input[type="radio"]:checked + .size,
+#crust-toppings-modal .toppings input[type="radio"]:checked + .size,
+#delivery-modal .toppings input[type="radio"]:checked + .size,
 #crust-toppings-modal .crusts input[type="radio"]:checked + .size,
 #delivery-modal .crusts input[type="radio"]:checked + .size,
 #crust-toppings-modal .sizes input[type="radio"]:checked + .size,
 #delivery-modal .sizes input[type="radio"]:checked + .size {
-  background-color: #EE5A00;
+  background-color: #ee5a00;
   color: #fff;
 }
 
-#crust-toppings-modal .toppings .size, #delivery-modal .toppings .size,
+#crust-toppings-modal .toppings .size,
+#delivery-modal .toppings .size,
 #crust-toppings-modal .crusts .size,
 #delivery-modal .crusts .size,
 #crust-toppings-modal .sizes .size,
@@ -387,7 +406,14 @@ footer .lower-section .socials img {
   transition: all 0.5s ease;
 }
 
-#crust-toppings-modal .toppings .size.crust-card, #delivery-modal .toppings .size.crust-card, #crust-toppings-modal .toppings .size.delivery-card, #delivery-modal .toppings .size.delivery-card, #crust-toppings-modal .toppings .size.topping-card, #delivery-modal .toppings .size.topping-card, #crust-toppings-modal .toppings .size.size-card, #delivery-modal .toppings .size.size-card,
+#crust-toppings-modal .toppings .size.crust-card,
+#delivery-modal .toppings .size.crust-card,
+#crust-toppings-modal .toppings .size.delivery-card,
+#delivery-modal .toppings .size.delivery-card,
+#crust-toppings-modal .toppings .size.topping-card,
+#delivery-modal .toppings .size.topping-card,
+#crust-toppings-modal .toppings .size.size-card,
+#delivery-modal .toppings .size.size-card,
 #crust-toppings-modal .crusts .size.crust-card,
 #delivery-modal .crusts .size.crust-card,
 #crust-toppings-modal .crusts .size.delivery-card,
@@ -408,7 +434,8 @@ footer .lower-section .socials img {
 }
 
 @media screen and (max-width: 992px) {
-  #crust-toppings-modal .toppings .size, #delivery-modal .toppings .size,
+  #crust-toppings-modal .toppings .size,
+  #delivery-modal .toppings .size,
   #crust-toppings-modal .crusts .size,
   #delivery-modal .crusts .size,
   #crust-toppings-modal .sizes .size,
@@ -417,7 +444,8 @@ footer .lower-section .socials img {
   }
 }
 
-#crust-toppings-modal .toppings img, #delivery-modal .toppings img,
+#crust-toppings-modal .toppings img,
+#delivery-modal .toppings img,
 #crust-toppings-modal .crusts img,
 #delivery-modal .crusts img,
 #crust-toppings-modal .sizes img,
@@ -427,7 +455,8 @@ footer .lower-section .socials img {
 }
 
 @media screen and (max-width: 768px) {
-  #crust-toppings-modal .toppings img, #delivery-modal .toppings img,
+  #crust-toppings-modal .toppings img,
+  #delivery-modal .toppings img,
   #crust-toppings-modal .crusts img,
   #delivery-modal .crusts img,
   #crust-toppings-modal .sizes img,
@@ -481,7 +510,7 @@ footer .lower-section .socials img {
 }
 
 .shopping-cart .btn-checkout {
-  background-color: #EE5A00 !important;
+  background-color: #ee5a00 !important;
   color: #fff;
 }
 
@@ -523,7 +552,7 @@ footer .lower-section .socials img {
 }
 
 .shopping-cart .shopping-cart-items .item-price {
-  color: #EE5A00;
+  color: #ee5a00;
   margin-right: 8px;
 }
 
