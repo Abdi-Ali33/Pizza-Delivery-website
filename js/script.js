@@ -43,4 +43,32 @@ Pizza.prototype.calculateTotal = function () {
 //   pizza sizes
 
 const pizzaSizes = ["small", "large", "medium"];
+// pizza toppings
 
+function Topping(id, name) {
+  this.id = id;
+  this.name = name;
+  this.prices = [
+    {
+      size: "small",
+      price: 50,
+    },
+    {
+      size: "medium",
+      price: 80,
+    },
+    {
+      size: "large",
+      price: 100,
+    },
+  ];
+}
+
+Topping.prototype.setPrice = function (size) {
+  const price = this.prices.find((sizePrice) => sizePrice.size == size);
+  if (price) {
+    this.price = price.price;
+  } else {
+    this.price = 0;
+  }
+};
