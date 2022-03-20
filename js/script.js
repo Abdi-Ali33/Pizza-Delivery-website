@@ -80,3 +80,21 @@ const toppings = [
   new Topping(3, "Mushrooms"),
   new Topping(4, "Avocado"),
 ];
+// crusts array
+const crusts = [
+  {
+    id: 1,
+    name: "Crispy",
+    price: 100,
+  },
+  {
+    id: 2,
+    name: "Stuffed",
+    price: 150,
+  },
+  {
+    id: 3,
+    name: "Gluten Free",
+    price: 110,
+  },
+];
