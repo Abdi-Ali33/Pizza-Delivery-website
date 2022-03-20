@@ -10,7 +10,8 @@ A pizza ordering website that allows users to order different sizes of pizza wit
 
 ## Screenshot
 
-![Screenshot](./screenshot/screenshot.jpg)
+![Screenshot](./images/image1.png)
+![Screenshot](./images/image2.png)
 
 ## Technologies Used
 
@@ -33,14 +34,14 @@ A pizza ordering website that allows users to order different sizes of pizza wit
 
 ## Behaviour Driven Development(BDD)
 
-1. Displays Form For Entering name,email and message.
-   - INPUT: "User's name Entered"
-   - INPUT: "User's email Entered"
-   - INPUT: "User's message Entered"
-   - OUTPUT: "Displays user's name with message that says we have received your message. Thank you fro reaching out to us."
-2. Displays an Error Message if name,email and message Input Left Blank
-   - INPUT: ""
-   - OUTPUT: "Displays Error Message"
+1. Choose the size of pizza I want e.g Small, Medium, Large
+1. Choose what kind of crust I would like the pizza to have e.g Crispy, Stuffed, Gluten-free
+1. Choose the topping(s) I want on my pizza.
+1. Place an order for my Pizza and see the total charge for it.
+1. Have an option to order as many pizzas as I want.
+1. Have an option to have the pizza delivered or not. If delivered I want to be alerted how much the delivery charge will be.
+1. If I want my pizza to be delivered, I want to be prompted to enter where the delivery should be made and an alert saying '' your order will be delivered to your location"
+1. See a checkout button that when clicked shows the total amount charged for the orders.
 
 ## Licence
 
