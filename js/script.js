@@ -98,3 +98,58 @@ const crusts = [
     price: 110,
   },
 ];
+//   pizzas array
+const pizzas = [
+  new Pizza(
+    1,
+    "Tikka Chicken",
+    "./images/pizzas/pizza1.png",
+    600,
+    pizzaSizes[0]
+  ),
+  new Pizza(
+    2,
+    "Chicken & Mushroom",
+    "./images/pizzas/pizza2.png",
+    1100,
+    pizzaSizes[1]
+  ),
+  new Pizza(
+    3,
+    "Sweet Chilli Chicken",
+    "./images/pizzas/pizza3.png",
+    1000,
+    pizzaSizes[2]
+  ),
+  new Pizza(
+    4,
+    "Mexican Fiesta",
+    "./images/pizzas/pizza4.png",
+    1000,
+    pizzaSizes[1]
+  ),
+  new Pizza(5, "BBQ Chcken", "./images/pizzas/pizza5.png", 600, pizzaSizes[0]),
+  new Pizza(
+    6,
+    "Four Seasons",
+    "./images/pizzas/pizza6.png",
+    800,
+    pizzaSizes[2]
+  ),
+  new Pizza(
+    7,
+    "CHICKEN O’RELLO",
+    "./images/pizzas/pizza7.png",
+    600,
+    pizzaSizes[0]
+  ),
+  new Pizza(
+    8,
+    "Peri Peri Chicken",
+    "./images/pizzas/pizza8.png",
+    1200,
+    pizzaSizes[1],
+    2
+  ),
+];
+
