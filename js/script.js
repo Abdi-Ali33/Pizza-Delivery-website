@@ -72,3 +72,11 @@ Topping.prototype.setPrice = function (size) {
     this.price = 0;
   }
 };
+// toppings array
+
+const toppings = [
+  new Topping(1, "Bacon"),
+  new Topping(2, "Cheese"),
+  new Topping(3, "Mushrooms"),
+  new Topping(4, "Avocado"),
+];
